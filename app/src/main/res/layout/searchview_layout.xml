@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_bg"
+    android:id="@+id/search_view_box">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/search_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:textColor="#E4E4E4"
+            android:textStyle="bold"
+            android:text="搜索"/>
+
+        <EditText
+            android:id="@+id/search_view_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_input_bg"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textColorHint="#A2A2A2"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:hint="关键字"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/search_view_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="5sp"
+        android:layout_gravity="right|center_vertical"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorHisBg"
+    app:cardCornerRadius="10sp">
+
+    <TextView
+        android:id="@+id/recycle_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="3sp"
+        android:layout_marginBottom="3sp"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"/>
+
+</androidx.cardview.widget.CardView>
